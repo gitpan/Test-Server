@@ -1,0 +1,23 @@
+---
+name: Test-Server
+version: 0.01
+author:
+  - 'Jozef Kutej <jozef@kutej.net>'
+abstract: what about test driven administration?
+license: perl
+requires:
+  Carp::Clan: 0
+  List::MoreUtils: 0
+  Socket: 0
+  Test::Differences: 0
+  Test::More: 0
+  YAML::Syck: 0
+recommends:
+  Net::DNS::Resolver: 0
+  Proc::ProcessTable: 0
+  Test::WWW::Mechanize: 0
+provides:
+  Test::Server:
+    file: lib/Test/Server.pm
+    version: 0.01
+generated_by: Module::Build version 0.26

@@ -1,0 +1,37 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 ad7f61f3737e5e6b148218c2b9e4570b50c8a079 Build.PL
+SHA1 4f6d6acaea766b538e0a89d7b7597a1ebf734785 Changes
+SHA1 e766a232f2ef46dc09d2b90cc243afbe5f0cf5d3 MANIFEST
+SHA1 3c4cfb28e3356d266e2cd6b6a6c9fe4564edbdcb META.yml
+SHA1 5fa5cc08465619a50069070d2ad19c2c8cad4646 README
+SHA1 1ac669ecbb54faa5134e44d219d0ee90dc25f14a examples/01_hostname-and-interfaces.t
+SHA1 d004712e2ec982ed58b10fbc3283d0ed3ee37623 examples/01_running-processes.t
+SHA1 0fe4d340a2c0eb4060c251135ac20433af6786a6 examples/02_dns-resolution.t
+SHA1 c993091058c3a9196200a014a43599bc02ece76b examples/03_sites-ok.t
+SHA1 945b40017b286623d4cebfd8074dc8cc419ea3ff examples/test-server.yaml
+SHA1 e94270463c5353551205724c68962b0f54c2fb8b lib/Test/Server.pm
+SHA1 0519c326194a85c8bd1aaec0d4a3c4850e9df638 t/00-load.t
+SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
+SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFHxGyEuzJBASXpqvsRAqUjAJ9EIGT5x+h5t4wv/K7Zu1kc45iatwCdG1C6
+RgmIQCOX73bcZxxjmEPwsgc=
+=iuu1
+-----END PGP SIGNATURE-----
