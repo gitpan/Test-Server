@@ -13,7 +13,9 @@ WriteMakefile
                            'Carp::Clan' => 0,
                            'YAML::Syck' => 0,
                            'Socket' => 0,
-                           'List::MoreUtils' => 0
+                           'List::MoreUtils' => 0,
+                           'Class::Accessor::Fast' => 0,
+                           'File::Slurp' => 0
                          }
         )
 ;
