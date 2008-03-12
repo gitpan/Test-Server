@@ -14,20 +14,20 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 12fef7d71dc5d80cea7f49f63b260ce52019f168 Build.PL
-SHA1 3bfd4d73b190f65aa6399b68e964216aa61d6fca Changes
+SHA1 ceac8f4dee3b092f5907c6408e9ecb372eb3326d Build.PL
+SHA1 1bd0fdb38ccaa1ae0b9012c44b60d49247bfaeec Changes
 SHA1 ab1b67fa3e5bffd7d779ce1ce42be4a5875285d4 MANIFEST
-SHA1 97124e11134904c1cb627d960fcc03b7318a07d8 META.yml
-SHA1 b3797699876aca2d82b915c1b0abbe9f36eef33a Makefile.PL
-SHA1 741a75eb0d5b5ae50de97d6b6fabb2b3c46bdf73 README
+SHA1 3c433ebbcddd208e491fd2d0e4145e80b545dd23 META.yml
+SHA1 5196ac0c599e8fa5b4b9151a9bd33125629bf1b9 Makefile.PL
+SHA1 d79ccc7a1964bd94a2ad063d6eca87a599f5a907 README
 SHA1 9a4af8a4d2d83551d99c3092c3124efe8603bd4d examples/01_hostname-and-interfaces.t
 SHA1 d004712e2ec982ed58b10fbc3283d0ed3ee37623 examples/01_running-processes.t
 SHA1 0fe4d340a2c0eb4060c251135ac20433af6786a6 examples/02_dns-resolution.t
 SHA1 18e1b8f48c3e6f9236dad95e266c6a68b4edff8e examples/03_open-ports.t
 SHA1 c993091058c3a9196200a014a43599bc02ece76b examples/03_sites-ok.t
-SHA1 9cd96657ade80e7282bf6a9d43f6f36653d05d7b examples/test-server.yaml
+SHA1 c11909928c3cb37e5719ae76e829199f94caa728 examples/test-server.yaml
 SHA1 2e09882b2b1ba907c3416b9a52e2410287e6e18c lib/Test/Net/Service.pm
-SHA1 06956f71c9e2f743009b3aa45732926aa7dbc44a lib/Test/Server.pm
+SHA1 6799a73be34748250e85045949cc81dc98f22177 lib/Test/Server.pm
 SHA1 0519c326194a85c8bd1aaec0d4a3c4850e9df638 t/00_Test-Server.t
 SHA1 25d0d8e604c2b3d2ab3cbe6dade51b4d1fa2a84d t/01_Test-Net-Service.t
 SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
@@ -35,7 +35,7 @@ SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFH1jafuzJBASXpqvsRAjNDAJ9OMBcjjEj0da67FwW6uEgcKLReBACePy+m
-PAHlmrKy6zjzfb7Gd5Mw/6A=
-=kSXB
+iD8DBQFH14PWuzJBASXpqvsRAu3fAJwLWQPZ061GwAkWIg+1KLUgXQ1fHgCePj9A
+aaNgHa3YAfVIg+IMD4O7etI=
+=Bz0N
 -----END PGP SIGNATURE-----

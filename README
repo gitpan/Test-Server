@@ -73,11 +73,23 @@ examples/
         query all nameserver-s in /etc/resolv.conf and make sure all are
         reachable.
 
+    02_time-sync.t
+        compare local machine time with a ntp server to make sure both are
+        in the sync.
+
+        For the idea thanks to Emmanuel Santiago Rodriguez.
+
     03_sites-ok.t
         check web sites
 
     03_open-ports.t
         Check if the ports are open and if the service is responding.
+
+    03_cmd-output.t
+        Check the output of the shell command with a regexp. Check the exit
+        code.
+
+        For the idea thanks to Aldo Calpini.
 
 sky
     There are no restrictions in Perl and there are no best solutions => so
@@ -89,8 +101,6 @@ TODO
 
             * check if all the interfaces has dns revers rr that properly resolves back
             * I should write some easy example test for non perl admins
-            * check time synchronization (thanks Emmanuel)
-            * run command and check the output (thanks Aldo)
             * file directory permissions for all relevant application directories
               (e.g. Is cache dir writeable for httpd) (thanks Peter Hartl)
             * check folders if the files (logs?) didn't grow too huge
