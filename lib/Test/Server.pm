@@ -50,7 +50,7 @@ similar solutions like this...)
 use warnings;
 use strict;
 
-our $VERSION = '0.04';
+our $VERSION = '0.04_01';
 
 =head1 METHODS
 
@@ -124,6 +124,19 @@ Check the output of the shell command with a regexp. Check the exit code.
 
 For the idea thanks to Aldo Calpini.
 
+=item 03_find-huge-files.t
+
+Check folders it there are not too many files and if the files (logs, tmp,
+etc.) didn't grow too large.
+
+=item 03_folder-file.t
+
+File directory permissions and sizes for a directories
+(e.g. Is cache dir writeable for httpd)
+
+For the idea thanks to Peter Hartl.
+
+
 =back
 
 =head1 sky
@@ -138,9 +151,7 @@ Do you have any? Send it! Or even better send the .t file.
 
 	* check if all the interfaces has dns revers rr that properly resolves back
 	* I should write some easy example test for non perl admins
-	* file directory permissions for all relevant application directories
-	  (e.g. Is cache dir writeable for httpd) (thanks Peter Hartl)
-	* check folders if the files (logs?) didn't grow too huge
+	* disk full check (using Filesys::DiskSpace||DiskFree ?)
 	
 	* create Test::Server::Smoke to try examples on smoke testing servers
 
@@ -149,6 +160,9 @@ Do you have any? Send it! Or even better send the .t file.
 L<http://testanything.org/>,
 L<http://en.wikipedia.org/wiki/Test_Anything_Protocol>
 and a book "Perl Testing: A Developer's Notebook"
+
+And if you like automated "thinks" check out also L<Sysadm::Install>
+for system admin scripting. Quite nice.
 
 =head1 AUTHOR
 

@@ -14,24 +14,24 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 a26a03219c6a3e1ba319eb1eb0a563fd521ee43d Build.PL
-SHA1 bd90c19d607d8cba66656f077b6cc948af1cf454 Changes
+SHA1 9a16af391923f4763a6c093f7808286e4c1354cb Build.PL
+SHA1 0931285de7492e8cfbdfbf55f9b602c1382765c3 Changes
 SHA1 844c675301f6f22597fd2b74968d39c0b6bdd080 MANIFEST
-SHA1 3eb610ca46bebc8ed493baa2b85048acd6fbd337 META.yml
-SHA1 3dca7cab41628ef9c4e0738bca31a55ee1e9ba02 Makefile.PL
-SHA1 58b5945132c004ba98ef35d71992629fbbeda14a README
-SHA1 9a4af8a4d2d83551d99c3092c3124efe8603bd4d examples/01_hostname-and-interfaces.t
+SHA1 dd142d57c8af610f5c01e3e55152f3eb35779fbf META.yml
+SHA1 c74444b7fdd5a03e11b167062ffd518c712fe843 Makefile.PL
+SHA1 3137ce793f7065a4500336dd0fd07b1af6a5943e README
+SHA1 e1960324ac5bbd569cc09af98738bdff5c787df3 examples/01_hostname-and-interfaces.t
 SHA1 d004712e2ec982ed58b10fbc3283d0ed3ee37623 examples/01_running-processes.t
-SHA1 0fe4d340a2c0eb4060c251135ac20433af6786a6 examples/02_dns-resolution.t
+SHA1 00c38a22ed46eaf30791989f0d1527ee10474c65 examples/02_dns-resolution.t
 SHA1 268df5d79c62d5feddfae537e74c5f838a25da2b examples/02_resolv.conf.t
 SHA1 69e32682872295ffe0c72595717af9d69cfca1ac examples/02_time-sync.t
 SHA1 74be82b3b4cf7a620ea097325a0b5da6400af1b6 examples/03_cmd-output.t
 SHA1 18e1b8f48c3e6f9236dad95e266c6a68b4edff8e examples/03_open-ports.t
 SHA1 c993091058c3a9196200a014a43599bc02ece76b examples/03_sites-ok.t
-SHA1 c11909928c3cb37e5719ae76e829199f94caa728 examples/test-server.yaml
+SHA1 96692428b14515182912ca098830e3494d26ec03 examples/test-server.yaml
 SHA1 c465c7bb36980bf5d19b0b374b576c6cc8b8d3e9 lib/Sys/Net.pm
 SHA1 2e09882b2b1ba907c3416b9a52e2410287e6e18c lib/Test/Net/Service.pm
-SHA1 5787ad64937c1638926650e71e9741397d452536 lib/Test/Server.pm
+SHA1 f00c1162c64878da394a9a182164be1ea1c4ee85 lib/Test/Server.pm
 SHA1 0519c326194a85c8bd1aaec0d4a3c4850e9df638 t/00_Test-Server.t
 SHA1 25d0d8e604c2b3d2ab3cbe6dade51b4d1fa2a84d t/01_Test-Net-Service.t
 SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
@@ -39,7 +39,7 @@ SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFH2jn+uzJBASXpqvsRAurmAJ9p02N2olgTHdgVA8VCEjumrpNaoACdGHmF
-6vPRIGAqu0P/dY9mAnVxUp8=
-=hmQx
+iD8DBQFH49uSuzJBASXpqvsRAnUHAJ9552iRfGeKDWYOF4nXoncRhC0JXwCgiuF0
+6WHqWTLBaKuI4fg4wfip2AM=
+=GiPT
 -----END PGP SIGNATURE-----

@@ -58,3 +58,26 @@ cmd-output:
         cmd   : perl -e 'exit 1'
         desc  : check perl exit != 0
         exit  : '!= 0'
+
+find-huge-files:
+    file-size-limit: 100M
+    files-count-limit: 1000 
+    search-folders:
+        - /var/log
+        - /var/cache
+        - /tmp
+    ignore:
+        - /tmp/huge
+
+folder-file:
+    /var/log:
+        user: root
+        group: root
+        max-size: 500M
+        perm: 755
+    /tmp/zero:
+        max-size: 2M
+    /etc:
+    /tmp/test:
+        perm: 2775
+        recurse: 1
