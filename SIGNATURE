@@ -16,8 +16,8 @@ Hash: SHA1
 
 SHA1 9a16af391923f4763a6c093f7808286e4c1354cb Build.PL
 SHA1 0931285de7492e8cfbdfbf55f9b602c1382765c3 Changes
-SHA1 844c675301f6f22597fd2b74968d39c0b6bdd080 MANIFEST
-SHA1 dd142d57c8af610f5c01e3e55152f3eb35779fbf META.yml
+SHA1 e1a1ec13a0ca5203a1641a9346bbe601d20f31f0 MANIFEST
+SHA1 f40500f0ea204e9c10ac3534d7ef4946db7770d7 META.yml
 SHA1 c74444b7fdd5a03e11b167062ffd518c712fe843 Makefile.PL
 SHA1 3137ce793f7065a4500336dd0fd07b1af6a5943e README
 SHA1 e1960324ac5bbd569cc09af98738bdff5c787df3 examples/01_hostname-and-interfaces.t
@@ -26,12 +26,15 @@ SHA1 00c38a22ed46eaf30791989f0d1527ee10474c65 examples/02_dns-resolution.t
 SHA1 268df5d79c62d5feddfae537e74c5f838a25da2b examples/02_resolv.conf.t
 SHA1 69e32682872295ffe0c72595717af9d69cfca1ac examples/02_time-sync.t
 SHA1 74be82b3b4cf7a620ea097325a0b5da6400af1b6 examples/03_cmd-output.t
+SHA1 7af0e409dce73b3d5e3f27cfc06d81fb1d29bf02 examples/03_find-huge-files.t
+SHA1 092e99ffd1accc51b5128130f9ddd9f84af2b9a0 examples/03_folder-file.t
 SHA1 18e1b8f48c3e6f9236dad95e266c6a68b4edff8e examples/03_open-ports.t
 SHA1 c993091058c3a9196200a014a43599bc02ece76b examples/03_sites-ok.t
 SHA1 96692428b14515182912ca098830e3494d26ec03 examples/test-server.yaml
 SHA1 c465c7bb36980bf5d19b0b374b576c6cc8b8d3e9 lib/Sys/Net.pm
 SHA1 2e09882b2b1ba907c3416b9a52e2410287e6e18c lib/Test/Net/Service.pm
-SHA1 f00c1162c64878da394a9a182164be1ea1c4ee85 lib/Test/Server.pm
+SHA1 90facf1900157c6d9cc78db7fa1f4f3c9cc046b4 lib/Test/Server.pm
+SHA1 84858ce69e5d973dac60f40ed1cb39f5c7661a6d lib/Test/Server/Util.pm
 SHA1 0519c326194a85c8bd1aaec0d4a3c4850e9df638 t/00_Test-Server.t
 SHA1 25d0d8e604c2b3d2ab3cbe6dade51b4d1fa2a84d t/01_Test-Net-Service.t
 SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
@@ -39,7 +42,7 @@ SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFH49uSuzJBASXpqvsRAnUHAJ9552iRfGeKDWYOF4nXoncRhC0JXwCgiuF0
-6WHqWTLBaKuI4fg4wfip2AM=
-=GiPT
+iD8DBQFH6Mg/uzJBASXpqvsRAmHTAJ9YqgKtVFMnRYdf+6morc4qrY67YgCgiLrv
+FnIyqH5to2ArQCBx3iKilhc=
+=gUp7
 -----END PGP SIGNATURE-----
