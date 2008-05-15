@@ -31,12 +31,14 @@ use Test::More;
 use Test::Differences;
 use YAML::Syck 'LoadFile';
 use FindBin '$Bin';
-use Filesys::DiskUsage qw/du/;
 use Test::Server::Util qw(parse_size format_size);
 
 my $STAT_PERM = 2;
 my $STAT_UID  = 4;
 my $STAT_GID  = 5;
+
+eval "use Filesys::DiskUsage qw/du/;";
+plan 'skip_all' => "need Filesys::DiskUsage to run web tests" if $@;
 
 my $config = LoadFile($Bin.'/test-server.yaml');
 
@@ -123,7 +125,7 @@ sub check_recursively {
 		my @stat = stat($filename);
 		
 		my $file_uid  = $stat[$STAT_UID];
-		my $file_gid  = $stat[$STAT_UID];
+		my $file_gid  = $stat[$STAT_GID];
 		my $file_perm = sprintf '%lo', $stat[$STAT_PERM] & 07777;
 		
 		push @bad_files, 'bad uid for '.$filename.': '.$file_uid.' does not match '.$uid

@@ -2,22 +2,23 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-          'PL_FILES' => {},
-          'INSTALLDIRS' => 'site',
           'NAME' => 'Test::Server',
           'VERSION_FROM' => 'lib/Test/Server.pm',
           'PREREQ_PM' => {
-                           'Test::Exception' => 0,
-                           'Filesys::DiskUsage' => 0,
-                           'IO::Socket::INET' => 0,
-                           'YAML::Syck' => 0,
-                           'Class::Accessor::Fast' => 0,
-                           'Test::More' => 0,
-                           'Test::Differences' => 0,
-                           'Carp::Clan' => 0,
-                           'Socket' => 0,
-                           'List::MoreUtils' => 0,
-                           'File::Slurp' => 0
-                         }
+                           'Carp::Clan' => '0',
+                           'Class::Accessor::Fast' => '0',
+                           'File::Slurp' => '0',
+                           'Filesys::DiskSpace' => '0',
+                           'Filesys::DiskUsage' => '0',
+                           'IO::Socket::INET' => '0',
+                           'List::MoreUtils' => '0',
+                           'Socket' => '0',
+                           'Test::Differences' => '0',
+                           'Test::Exception' => '0',
+                           'Test::More' => '0',
+                           'YAML::Syck' => '0'
+                         },
+          'INSTALLDIRS' => 'site',
+          'PL_FILES' => {}
         )
 ;
