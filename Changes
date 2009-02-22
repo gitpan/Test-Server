@@ -1,5 +1,16 @@
 Revision history for Test-Server
 
+0.05    06. Nov 2008
+    * disk-free.t example added
+    * dns-resolution.t example added
+    * find-huge-files.t example added
+    * folder-file.t example added
+    * Test::Server::Util module added
+    * messages.t example added
+    * interfaces-ptr.t example added
+    * wakeup.t example added
+    * net-hops.t example added
+
 0.04
     * added missing files to manifest
     * folder-file.t example

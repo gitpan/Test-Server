@@ -1,3 +1,5 @@
+#!/usr/bin/perl
+
 use strict;
 use warnings;
 use Module::Build;
@@ -19,10 +21,8 @@ my $builder = Module::Build->new(
     	'Carp::Clan'            => 0,
     	'Class::Accessor::Fast' => 0,
     	'File::Slurp'           => 0,
-    	'Filesys::DiskUsage'    => 0,
 	# Sys::Net dependecies
     	'IO::Socket::INET'      => 0,
-    	'Filesys::DiskSpace'    => 0,
     },
     recommends          => {
     	'Net::DNS::Resolver'   => 0,
@@ -30,6 +30,8 @@ my $builder = Module::Build->new(
     	'Proc::ProcessTable'   => 0,
     	'Net::NTP'             => 0,
     	'Time::HiRes'          => 0,
+    	'Filesys::DiskSpace'   => 0,
+    	'Filesys::DiskUsage'   => 0,
     },
     add_to_cleanup      => [ 'Test-Server-*' ],
     create_makefile_pl  => 'traditional',
