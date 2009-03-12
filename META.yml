@@ -1,6 +1,6 @@
 ---
 name: Test-Server
-version: 0.05_02
+version: 0.05
 author:
   - 'Jozef Kutej <jozef@kutej.net>'
 abstract: what about test driven administration?
@@ -35,7 +35,7 @@ provides:
     version: 0.01
   Test::Server:
     file: lib/Test/Server.pm
-    version: 0.05_02
+    version: 0.05
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
