@@ -32,7 +32,7 @@ use strict;
 use IO::Socket::INET ();
 use Carp::Clan 'croak';
 
-our $VERSION = '0.01';
+our $VERSION = '0.06';
 
 use base 'Class::Accessor::Fast';
 

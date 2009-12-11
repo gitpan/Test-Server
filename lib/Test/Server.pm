@@ -50,7 +50,7 @@ similar solutions like this...)
 use warnings;
 use strict;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 =head1 METHODS
 
@@ -166,6 +166,21 @@ C<traceroute> program.
 
 =back
 
+=head2 TODO
+
+=over 4
+
+=item 03_smart.t
+
+run `smartctl -q errorsonly -H -l selftest /dev/hda` and produce error if there will
+be some output
+
+=item 03_reachable.t
+
+check with Net::Ping if hosts are reachable
+
+=back
+
 =head1 sky
 
 There are no restrictions in Perl and there are no best solutions => so the
@@ -182,14 +197,15 @@ Do you have any? Send it! Or even better send the .t file.
 
 	* connect to database and check if count of rows in all table doesn't exceed some number
 
-=head1 LINKS
+=head1 SEE ALSO
 
 L<http://testanything.org/>,
 L<http://en.wikipedia.org/wiki/Test_Anything_Protocol>
 and a book "Perl Testing: A Developer's Notebook"
 
-And if you like automated "thinks" check out also L<Sysadm::Install>
-for system admin scripting.
+L<Test::System>
+
+If you like automation check out also L<Sysadm::Install> for system admin scripting.
 
 =head1 AUTHOR
 

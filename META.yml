@@ -1,6 +1,6 @@
 ---
 name: Test-Server
-version: 0.05
+version: 0.06
 author:
   - 'Jozef Kutej <jozef@kutej.net>'
 abstract: what about test driven administration?
@@ -26,17 +26,19 @@ recommends:
   Proc::ProcessTable: 0
   Test::WWW::Mechanize: 0
   Time::HiRes: 0
+configure_requires:
+  Module::Build: 0.35
 provides:
   Sys::Net:
     file: lib/Sys/Net.pm
-    version: 0.01
+    version: 0.06
   Test::Net::Service:
     file: lib/Test/Net/Service.pm
-    version: 0.01
+    version: 0.06
   Test::Server:
     file: lib/Test/Server.pm
-    version: 0.05
-generated_by: Module::Build version 0.280801
+    version: 0.06
+generated_by: Module::Build version 0.35
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4

@@ -29,7 +29,7 @@ ipv4 ip of the system interfaces. Will be extended when a need arrise.
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.06';
 
 use Socket 'inet_ntoa', 'inet_aton', 'AF_INET';
 

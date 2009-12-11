@@ -21,7 +21,7 @@ Some usefull functions for Test::Server files. See FUNCTION section.
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.06';
 
 use base 'Exporter';
 our @EXPORT_OK = qw(format_size parse_size);
